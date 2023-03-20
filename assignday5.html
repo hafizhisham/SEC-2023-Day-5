@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Day 5</title>
+    <link rel="stylesheet" href="assignday5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section id="mainmenu">
+      <div class="left"><h1>DIGITAL AGENCY</h1></div>
+      <div class="right">
+        <ul class="menu">
+          <li>home</li>
+          <li><a href="#about1">about</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="topnav">
+          <a class="active">-</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#home">home</a>
+            <a href="#about1">about</a>
+            <a href="#testimonials">testimonials</a>
+            <a href="#contact">contact</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+        </script>
+      </div>
+    </section>
+    <section id="digital">
+      <div class="left">
+        <h1>Building Digital Products, Brands & Experience</h1>
+        <h2>
+          Digital Agency is your online team mangement tool that easy and prompt
+        </h2>
+        <button>CONTACT US</button>
+      </div>
+      <div class="right h2">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/5020/3dc4/a13c5dc52145089453e8b1c0fa2053ac?Expires=1679875200&Signature=jdyVI4wjr-Aga~CDpaECYlj3ewHFukZLkB2iqF2E4uR2BGE7-WC9ho3UikYivE9yFWLOdmiij5hHLV6bNGz3xtsQi0QhKKNeDsexVpp3FlY9r6n-NSrtiMsjtY7Br2JrufGoIK3~HBrVr8duHsF7Vjj-YlOg2KeJioCKUmrPCihOk7BJytoCa669HiDxczIKwD8ffESNSahbVDVcWlAlbc0d~hvp6AFSegLlKGVG8uTCH0~to4A7e5Bd7Fs4luDd-IRuj0WvoAtvvpBERuMrEhZRpr2P5AiCPvQ1rM0Aw4mZ-Gn53RyxTnKfWILZNIc7OhvJZPr2txiV5m8Kz3NGVA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        />
+      </div>
+    </section>
+    <section id="company">
+      <div class="up">
+        <h1>Trusted by 4,000+ companies</h1>
+      </div>
+      <div class="down">
+        <img src="images/spotify.png" alt="" />
+        <img src="images/slack.png" alt="" />
+        <img src="images/dropbox.png" alt="" />
+        <img src="images/zoom.png" alt="" />
+      </div>
+    </section>
+    <section id="about1">
+      <div class="left">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/7f34/8a2f/767931672d78458200ed03fb0ea5f28e?Expires=1679875200&Signature=k7WV0YOMFKPxOtCq3rERPdkptYj-Swe0JSDMC1RqYA8tdpo21tE3omlLmwGxqQH-vCeFBMtCpBE~wyt8j-L8CUiKC9xo2~DOB7O2gPTlmq6oMhX9XJ2TsVOQIxN0b6SW8~9EGkyY2sZr8IC8K80-pEsKcF2yrc~f9lh8XZzJJ0i~rSkyjlMSC3gxdT5giH4Z5aZCpBVJkb4kFLjD3Da9JkU-8PIcTGL9-nktiVWnjQYdYZ8ZLBSFvz6wjKK0UOQm46mJ~-pO32J70UqXfuKbfFkpb2jb0mU3MxI0CjNdLY22Jj2QA9GCcjtPOSpk72fnsd0Ir5PkVSUXBKAoMoN8WQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        />
+      </div>
+      <div class="right">
+        <h1>Branding & Design system</h1>
+        <h2>
+          Commonly used in the graphic, print & publishing industris for
+          previewing visual layout and mockups
+        </h2>
+        <div class="arrowright"><i class="bi bi-arrow-right"></i></div>
+      </div>
+    </section>
+    <section id="about2">
+      <div class="left">
+        <h1>Custome & Plugin Development</h1>
+        <h2>
+          Commonly used in the graphic, print & publishing industris for
+          previewing visual layout and mockups
+        </h2>
+        <div class="arrowright"><i class="bi bi-arrow-right"></i></div>
+      </div>
+      <div class="right">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/307b/6256/2d97ba4b6d87eb35594347881b0bffcf?Expires=1679875200&Signature=g0xOJkwQ8u9H3jnj8S0ajnP3PAk1co~AwozKCpBbUY3iG~3Q0h6sPy9TGZLhRcPLteZe~iDMhMa8Ykr1wU52R8NVEydzDNkarHk59o1i0F-kFazCF9yrc98ZdFL~kFTupD~7QKOXpMFTWz~nMkjiWbfiNM7PWsBZIKNObyP7ERbJGxhvE3G6rN~OeyU8D-kioG-IyuacRAGsHzK5UyI2qaXsg3cLQucjhXeZaj7Cp7FEei1QiHOupXdZhyKnBNcHacwT5Fp9fCCWno08gCUflLG4jnBJmaUAXvQ8X~yIzsxlix5x1bFc2WRbrzGqk-44yFvzRpFYfG84ZAS1BBSgRA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        />
+      </div>
+    </section>
+    <section id="testimonials">
+      <div class="up">
+        <h2>TESTIMONIALS</h2>
+        <h1>Read What Other have to Say</h1>
+      </div>
+      <div class="down">
+        <div class="center1">
+          <div class="circle">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/476c/19db/a4f5e6051e2d6018f1206b123d4507ab?Expires=1679875200&Signature=NkoUmwCHjEDL5xbOgF49SZpsBWXGKShfQO49wn1dV28YJDs2TJOBi-7nCKBtTCGnp0x8t1LRdUbvobv~KOr61MchN3fkFKNXAYDd~k8q~fryLcrw2j966RmLITKpvsN3pRIqe9ZV858e1qyKd-E6jW~sETth0LIdABVAiucfLSdvDJZxg-MmbUvhqZM~E~uN54OKX0mdb-TU7pvlqlx3ASJ~KSImPz9dMpeTURITmzkF3XleTdHr18tqsJyBsHx~XI3UP1oDKwRp--5wzu93Ye0Ae7r7GfURtv9Zxngrw1avHzB6DBVp2JSqngUirowXQpuhmJnKYtzRFl0Ln0x0Lg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <h2>Andrew Rathore</h2>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+          </h3>
+        </div>
+        <div class="center2">
+          <div class="circle">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/842f/74e8/b7a59cebddc1404feb2237ea4f224297?Expires=1679875200&Signature=Jjnbk5znl5aIvUPRfy5Rd4ukNH7awmEDG-RAiSEj2eNY7b54YbLBKhDEb1opQixiAgSuzCE93VoU7bOnaZikkmNkoYfmkt33aT9ve6YebPuFZ0ZQbI3mGg9~vc5NiEqscVtdvXF8g6oDbfooSF5aoDhxEll-ZJhOScINXovwbPAEUHhBDNGqHH5Jw6ObpBROYxoB5hGlBBLqEjvK8GenXixEQTsEh6w2mBQ9IfXN7byrfrgQ0-wL2TWa8H0sq2ZjGihLHc~FABKiC6dTHI8Q7kCQEdvHwCyNB6bt~8vczKQzkf7pzVNde0l2lwTwtFrOcp3G0pUMu182tVZYd3XevA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <h2>Vera Duncan</h2>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+          </h3>
+        </div>
+        <div class="center3">
+          <div class="cirlce">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/f578/ba17/ac95d6685cd2a80af8afa37175f03a58?Expires=1679875200&Signature=eZIuAMHJKWUvjs9KFfmehwWWm4fdggtCP2149KQOJWW6EjDAn3wDXPh05a6xiugKOiSlCm764oxf7r-rDfQ3iFOXr7Ld4V9v~6BYmeAprt1DT3NGgZUnrAxIsc0l52LUL9MFSfnY2N~W6JT6j84DmfcioyB8vBBsHMS70C2Mj4KmmHEZSsqI0ROYBNAP3AI-uUlusCTf10N-egZrZDQ~OZT~jyMNvg8mR5VLXFomp1R29TPtr9MwctaWllIgHrVTS7q-8mjaoFnmm~7efMByWbx4FsJuYQhkZq0nThTVCGsh86gObDhO3ZHDDB6eEzYvCvgDLDalLnZQf8gUWrI~Sg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              alt=""
+            />
+          </div>
+          <h2>Mark Smith</h2>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contactcenter">
+        <div class="left">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/ad3c/f1c0/4f083db6be923eb798f08ca89bb2da43?Expires=1679875200&Signature=Oerp~rPj7thJTKKznYaSbvwsIwj9nkh4N1QqhsXMGQZrAd8pp3w0aH~8K33aKcLFNeA~4LcPZyT706KUTbqkQYN4jaif6TVdWSHs-Q~D-cu4U6lXptVbD7H5iCMmYvY37fT3P1earM8oiOf8rzVHlQsnhyOwR5UlSWRi2arZOyAfkdIRHjqBOxhRQtfL5tCGmEZsGfRg5loNQq0us~1nIw7oo6VNn6BVEV8tE6Y4GwuqIPd3ml4tY6pF3F0QAJ4WuvI6sfahXwwVzzdKVdJNLmwOmDBo6Y80y0jgXSs-SDHrmul~woe42MQJEhEBOvXdzIYeJrwuyxgfKGa8ypG7kQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+            alt=""
+          />
+        </div>
+        <div class="right">
+          <h1>Be a part of the next big thing</h1>
+          <h2>
+            We work with Brans, Startups, to SMEs. Colaborate for more impact
+            and growt
+          </h2>
+          <button>CONTACT US</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="up">
+        <div class="first">
+          <h1>Digital Agency</h1>
+          <h2>Building digital products, brands & experience</h2>
+        </div>
+        <div class="second">
+          <h1>Resources</h1>
+          <h2>
+            <ul>
+              Guides
+            </ul>
+            <br />
+            <ul>
+              Blog
+            </ul>
+            <br />
+            <ul>
+              Customer Stories
+            </ul>
+            <br />
+            <ul>
+              Glossery
+            </ul>
+          </h2>
+        </div>
+        <div class="third">
+          <h1>Company</h1>
+          <h2>
+            <ul>
+              About Us
+            </ul>
+            <br />
+            <ul>
+              Careers
+            </ul>
+            <br />
+            <ul>
+              Partners
+            </ul>
+            <br />
+            <ul>
+              Contact Us
+            </ul>
+          </h2>
+        </div>
+        <div class="fourth">
+          <h1>Social Media</h1>
+          <h2>
+            <ul>
+              LinkedIn
+            </ul>
+            <br />
+            <ul>
+              Facebook
+            </ul>
+            <br />
+            <ul>
+              Instagram
+            </ul>
+            <br />
+            <ul>
+              Twitter
+            </ul>
+          </h2>
+        </div>
+      </div>
+      <div class="down">
+        <h2>© Matheus. Todos os direitos reservados</h2>
+      </div>
+    </footer>
+  </body>
+</html>
